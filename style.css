@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.turinys {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url("img/IMG_20191224_125656\ -\ Copy.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.veiklosPavadinimas {
+    font-size: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: darkcyan;
+}
+
+.logotipas {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 100px;
+    width: 200px;
+}
+
+.nuorodos {
+    font-size: 30px;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nuoroda {
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    color: yellow;
+}
+
+.tekstasApiemus {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(81, 141, 31);
+}
